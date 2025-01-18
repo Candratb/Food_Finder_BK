@@ -1,0 +1,29 @@
+name: food_finder
+description: "Food Finder, aplikasi pencari makanan untuk Anda"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  dio: ^5.7.0
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^9.2.2
+  geolocator: ^13.0.2
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/resto_default.png
+    - assets/images/menu_default.png
+    - assets/images/user_default.png

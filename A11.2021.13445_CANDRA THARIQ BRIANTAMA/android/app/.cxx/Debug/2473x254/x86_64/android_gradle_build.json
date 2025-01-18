@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "/Users/kaqfa/Dev/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/kaqfa/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/kaqfa/Documents/Kuliah/BK/andro_food_finder/android/app/.cxx/Debug/2473x254/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/kaqfa/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/kaqfa/Documents/Kuliah/BK/andro_food_finder/android/app/.cxx/Debug/2473x254/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {},
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/kaqfa/Library/Android/sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/kaqfa/Library/Android/sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}
